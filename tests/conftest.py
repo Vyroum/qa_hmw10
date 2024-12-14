@@ -4,7 +4,6 @@ from selenium import webdriver
 import allure
 
 
-
 @pytest.fixture(scope="session", autouse=True)
 @allure.step("Настройка браузера")
 def browser_set():
